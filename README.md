@@ -11,7 +11,7 @@ This repository contains the code for my personal website, showcasing my skills,
 ## How to Set Up Your Own Personal Website
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+      git clone https://github.com/SamRizk/SamRizk.github.io.git
    ```
    
 2. **Edit the HTML File:**
