@@ -5,134 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samir Rizk | Embedded Linux Engineer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f4f4f9;
-        }
-
-        header {
-            background: #282c34;
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #333;
-            padding: 1rem 0;
-        }
-
-        .nav-links {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .nav-links a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        h2 {
-            color: #555;
-            margin-bottom: 1rem;
-        }
-
-        .skills, .projects, .contact {
-            margin-bottom: 2rem;
-        }
-
-        .skills ul {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            list-style: none;
-            padding: 0;
-        }
-
-        .skills li {
-            background: #e0e7ff;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-        }
-
-        .social-icons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            margin-top: 1rem;
-        }
-
-        .social-icons img {
-            width: 40px;
-            height: 40px;
-            transition: transform 0.3s ease;
-        }
-
-        .social-icons img:hover {
-            transform: scale(1.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background: #282c34;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Samir Rizk</h1>
-        <p>Embedded Linux Engineer | Problem Solver | Innovator</p>
-    </header>
 
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header>
+    <h1>Samir Rizk</h1>
+    <p>Embedded Linux Engineer | Problem Solver | Innovator</p>
+</header>
 
-    <section id="about" class="container">
+<main>
+    <section class="section" id="about">
         <h2>About Me</h2>
         <p>I am an Embedded Linux Engineer with a passion for developing secure, efficient, and innovative embedded systems. I specialize in Linux, C++, RTOS, networking, and more. With experience at Valeo, I've worked on security features in V2X and other cutting-edge technologies.</p>
     </section>
 
-    <section id="projects" class="container">
+    <section class="section" id="projects">
         <h2>Projects</h2>
         <ul>
             <li>
-                <h3>Autonyms Delivery System</h3>
-                <p>My college graduation project, a car with AI capabilities that can be tracked via a cross-platform app, detect routes, recognize the owner, and classify over 1,000 objects.</p>
+                <strong>Autonomous Delivery System:</strong> A car with AI capabilities that can be tracked via a cross-platform app, detect routes, recognize the owner, and classify over 1,000 objects.
             </li>
             <li>
-                <h3>RTOS from Scratch</h3>
-                <p>Developed a pre-emptive, priority-based Real-Time Operating System on the ARM Cortex-M4 processor as part of my ITI graduation project.</p>
+                <strong>RTOS from Scratch:</strong> Developed a pre-emptive, priority-based Real-Time Operating System on the ARM Cortex-M4 processor.
             </li>
         </ul>
     </section>
 
-    <section id="skills" class="container skills">
+    <section class="section" id="skills">
         <h2>Skills</h2>
         <ul>
             <li>C, C++, Python</li>
@@ -143,22 +43,24 @@
         </ul>
     </section>
 
-    <section id="contact" class="container contact">
+    <section class="section" id="contact">
         <h2>Contact Me</h2>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/samir-rizk-3174b4207/" target="_blank"><img src="https://itcnet.gr/wp-content/uploads/2020/09/Linkedin-logo-on-transparent-Background-PNG-.png" alt="LinkedIn"></a>
-            <a href="mailto:samir9999life@gmail.com"><img src="https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png" alt="Gmail"></a>
-            <a href="https://github.com/SamRizk" target="_blank"><img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="GitHub"></a>
-            <a href="https://www.hackerrank.com/profile/samir9999live" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-1024.png" alt="HackerRank"></a>
-            <a href="https://codeforces.com/profile/SaMir_R_" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/code-forces-3628695-3029920.png" alt="Codeforces"></a>
+        <div class="contact">
+            <a href="https://www.linkedin.com/in/samir-rizk-3174b4207/" target="_blank">LinkedIn</a>
+            <a href="mailto:samir9999life@gmail.com">Gmail</a>
+            <a href="https://github.com/SamRizk" target="_blank">GitHub</a>
+            <a href="https://www.hackerrank.com/samir9999live" target="_blank">HackerRank</a>
+            <a href="https://codeforces.com/profile/SaMir_R_" target="_blank">Codeforces</a>
         </div>
     </section>
+</main>
 
-    <footer>
-        <p>© 2024 Samir Rizk. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>© 2024 Samir Rizk. All rights reserved.</p>
+</footer>
 
-    <!-- Visitor Counter -->
-    <script src="https://cdn.counter.dev/script.js" data-id="ddfb2a5f-987e-400d-bb95-e86d237db8ab" data-utcoffset="3"></script>
+<!-- Visitor Counter -->
+<script src="https://cdn.counter.dev/script.js" data-id="ddfb2a5f-987e-400d-bb95-e86d237db8ab" data-utcoffset="3"></script>
+
 </body>
 </html>
